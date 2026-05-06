@@ -7,3 +7,4 @@ build/
 .vscode/
 *.txt
 TEST/
+*.pdf
