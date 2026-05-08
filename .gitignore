@@ -8,3 +8,5 @@ build/
 *.txt
 TEST/
 *.pdf
+IN
+OUT
