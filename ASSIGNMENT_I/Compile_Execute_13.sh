@@ -4,6 +4,8 @@ cd dir
 
 for file in *.c
 do
-    gcc "$file" -o "$file.out"
-    ./"$file".out
+    output="${file%.c}"
+    gcc "$file" -o "$output"
+    ./"$output"
+    rm $output
 done
