@@ -8,3 +8,6 @@ read file2
 
 echo "Enter new filename:"
 read f3
+
+sort $file1 > t1
+sort $file2 > t2
