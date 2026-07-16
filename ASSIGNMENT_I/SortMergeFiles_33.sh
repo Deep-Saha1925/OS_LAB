@@ -11,3 +11,5 @@ read f3
 
 sort $file1 > t1
 sort $file2 > t2
+
+cat t1 t2 > $f3
