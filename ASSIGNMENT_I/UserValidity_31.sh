@@ -3,7 +3,7 @@
 echo "Enter username:"
 read user
 
-grep "^$user:" /etc/passwd ? /dev/null
+grep "^$user:" /etc/passwd > /dev/null
 
 if [ $? -eq 0 ]
 then
